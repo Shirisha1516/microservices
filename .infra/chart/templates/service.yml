@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: example-deployment
+spec:
+  ports:
+    - protocol: TCP
+      port: 44388
+      targetPort: 44388
+  selector:
+    app: example-deployment
