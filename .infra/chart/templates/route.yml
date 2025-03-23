@@ -8,5 +8,5 @@ spec:
     name: example-deployment
     weight: 100
   port:
-    targetPort: 44388
+    targetPort: 80
   wildcardPolicy: None
