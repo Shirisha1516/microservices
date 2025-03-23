@@ -5,7 +5,7 @@ metadata:
 spec:
   ports:
     - protocol: TCP
-      port: 44388
-      targetPort: 44388
+      port: 80
+      targetPort: 80
   selector:
     app: example-deployment
