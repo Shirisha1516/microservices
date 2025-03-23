@@ -17,5 +17,5 @@ spec:
           image: >-
             image-registry.openshift-image-registry.svc:5000/{{ .Release.Namespace }}/{{ .Values.image.name }}:{{ .Values.image.tag }}
           ports:
-            - containerPort: 44388
+            - containerPort: 80
               protocol: TCP
